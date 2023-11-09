@@ -1,0 +1,39 @@
+.button {
+    min-width: 100px;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 600;
+    background: none;
+    outline: none;
+    transition: .4s;
+    cursor: pointer;
+}
+.button:disabled,
+.button:disabled:hover {
+    color: #9c9c9c;
+    background-color: transparent;
+    border-color: #9c9c9c;
+    cursor: auto;
+}
+
+.dark {
+    border: 1px solid;
+    color: white;
+}
+
+.dark:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.light {
+    border: 1px solid;
+    color: black;
+}
+
+.light:hover {
+    background-color: #000;
+    color:#fff
+}
